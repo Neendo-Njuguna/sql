@@ -1,0 +1,30 @@
+Question 1:
+    SELECT * FROM Students;
+
+Question 2:
+    SELECT name, marks FROM Students
+
+Question 3:
+    SELECT *FROM Students WHERE town != 'Nairobi';
+
+Question 4:
+    SELECT name, FROM Students WHERE town ='Ruiru';
+
+Question 5:
+   SELECT *FROM Students WHERE marks > '85';
+
+Question 6:
+    SELECT *FROM Students ORDER BY marks;
+
+Question 7:
+    SELECT name FROM Students WHERE marks > '80';
+
+Question 8:
+    SELECT name, FROM Students WHERE marks > '70';
+
+Question 9:
+    SELECT *FROM Students ORDER BY names DESC;
+
+Question 10:
+SELECT name,town FROM Students WHERE town = 'Nairobi' OR marks > '80';
+
